@@ -1,0 +1,7 @@
+# ContextRAG extension
+comment = 'Contextual Row-based RAG for PostgreSQL'
+default_version = '1.0'
+module_pathname = '$libdir/contextrag'
+relocatable = false
+schema = contextrag
+requires = 'pgvector'
