@@ -1,0 +1,7 @@
+# GraphRAG extension
+comment = 'Graph-enhanced Retrieval Augmented Generation using Apache AGE'
+default_version = '1.0'
+module_pathname = '$libdir/graphrag'
+relocatable = false
+requires = 'age,vector'
+schema = graphrag
